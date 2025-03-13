@@ -50,7 +50,7 @@ document.addEventListener('readystatechange', (event) => {
 			if((camId + 1) < cameras.length) {
 				camId = camId +1;
 			} else {
-				camId = 0;
+				camId = 1;
 			}
 			if(cameras.length > 1) {
 				if(navigator.mediaDevices || navigator.mediaDevices.enumerateDevices) {
